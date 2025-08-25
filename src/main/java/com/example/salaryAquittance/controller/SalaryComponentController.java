@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/hr/salary-components")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://salarygen-seven.vercel.app")
 @RequiredArgsConstructor
 public class SalaryComponentController {
 
